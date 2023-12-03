@@ -64,8 +64,4 @@ function validateForm() {
 
   localStorage.setItem(email, JSON.stringify(userData));
 
-alert("Congratulations!! \nUser Created Successfully ");
-
-window.location.href = "../pages/login.html";
-
 }
